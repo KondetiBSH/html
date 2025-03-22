@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Biyaq Oilfield Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .header {
+            background: white;
+            padding: 20px;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+        }
+        .header img {
+            height: 50px;
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+            position: relative;
+        }
+        .nav a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            position: relative;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: black;
+            color: white;
+            min-width: 150px;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: white;
+            padding: 10px;
+            display: block;
+            text-decoration: none;
+        }
+        .dropdown-content a:hover {
+            background-color: grey;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .banner {
+            background: #ccc;
+            text-align: center;
+            padding: 50px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .content {
+            display: flex;
+            padding: 40px;
+        }
+        .content .text {
+            width: 60%;
+        }
+        .content .image {
+            width: 40%;
+            text-align: center;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+        }
+        .mission {
+            padding: 20px;
+        }
+        .mission ul {
+            list-style-type: none;
+        }
+        .section {
+            background: url('background.jpg') no-repeat center center/cover;
+            padding: 50px 10%;
+            text-align: center;
+            color: black;
+        }
+        .section h2 {
+            color: darkred:
+            font-weight: bold;
+        }
+        .columns {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+        .column {
+            width: 30%;
+        }
+        .column hr {
+            border: none;
+            height: 2px;
+            background-color: darkred;
+            width: 50%;
+            margin: 10px auto;
+        }
+        .footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+        .footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        /* .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons a {
+            font-size: 20px;
+            margin: 0 10px;
+        } */
+        .social-icons {
+            list-style: none;
+            position: fixed;
+           
+            
+            bottom: 0px;
+                right: 20px;
+}
+.social-icons li{
+    
+                list-style: none;
+                position: fixed;
+                bottom: 0px;
+                right: 20px;
+
+}
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.social-icons a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="Biyaq Logo">
+        <div class="nav">
+            <a href="#home" style="color: grey;">HOME</a>
+            <div class="dropdown">
+                <a href="#about">ABOUT</a>
+                <div class="dropdown-content">
+                    <a href="#about-us">About us</a>
+                    <a href="#ceo-message">CEOs Message</a>
+                    <a href="#in-country">In-Country Value</a>
+                    <a href="#hse">HSE</a>
+                </div>
+            </div>
+            <a href="#solutions">SOLUTIONS</a>
+            <a href="#clients">ASSOCIATION & CLIENTS</a>
+            <a href="#contact">CONTACT US</a>
+        </div>
+    </div>
+    <div class="banner">
+        BIYAQ OILFIELD SERVICES
+    </div>
+    <div class="content">
+        <div class="text">
+            <h2>BIYAQ OILFIELD SERVICES</h2>
+            <p>Biyaq is a 100% Omani company specializing in the supply of various chemicals and services to the Oil & Gas Industry since 1996.</p>
+            <p>We offer innovative solutions for upstream, midstream, and downstream oil & gas markets.</p>
+        </div>
+        <div class="image">
+            <img src="rig.jpg" alt="Oil Rig">
+        </div>
+    </div>
+    
+
+    <div class="section">
+        <div class="columns">
+            <div class="column">
+                <h2>Our Vision</h2>
+                <hr>
+                <p>To be the leading chemical solutions and service provider for oil and gas industries.</p>
+            </div>
+            <div class="column">
+                <h2>Our Mission</h2>
+                <hr>
+                <p>To provide our customers with quality products and services as safe, efficient and cost-effective manner without damaging the environment.</p>
+            </div>
+            <div class="column">
+                <h2>Aim</h2>
+                <hr>
+                <p>To develop close collaborative relationships with our customers to find innovative solutions to their needs with proven performances.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Biyaq Oilfield Services All rights reserved</p>
+
+        
+                   <div class="social-icons">
+                
+                    <a href="https://www.facebook.com/"><li class="bi bi-facebook"></li></a>
+                    <a href="https://www.linkedin.com/feed/"><li class="bi bi-linkedin"></li></a>
+                    <a href="https://twitter-cl.vercel.app/login"><li class="bi bi-twitter"></li></a>
+                    <a href="https://www.youtube.com/"><li class="bi bi-youtube"></li></a>
+                    
+                    
+                  </div>
+
+        
+        
+           <!-- <div class="social-icons"> -->
+            <!-- <a href="#">&#xf09a;</a> Facebook -->
+            <!-- <a href="#">&#xf099;</a> Twitter -->
+            <!-- <a href="#">&#xf0d2;</a> Pinterest -->
+            <!-- <a href="#">&#xf1b2;</a> Dribbble -->
+            <!-- <a href="#">&#xf08c;</a> LinkedIn -->
+        </div> 
+        </div>
+</body>
+</html>
